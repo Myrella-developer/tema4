@@ -1,8 +1,8 @@
 <?php
    class Employee {
 
-    public $name;
-    public $salary;
+    private $name;
+    private $salary;
 
     public function myMethod($name, $salary) {
         $this -> name = $name;
